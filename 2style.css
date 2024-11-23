@@ -15,7 +15,12 @@
 .refresh-btn:hover {
     background-color: #45a049;
 }
-
+.bun{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
 
 body {
     padding: 0;
