@@ -9,6 +9,12 @@
 
 </head>
 <style>
+   body {
+    width: 100%;
+    overflow-x: hidden;  /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+}
     .division_table{
         width: 100%;
         height: 600px;
@@ -118,7 +124,92 @@ a{
     color: red;
     font-size: 20px;
  }
-    /*  */
+
+ .table1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(189, 73, 73);
+        /* padding: 15px; */
+        border: 1px solid black;
+        padding-bottom: 40px;
+
+        /* box-shadow: 2px 2px 22px rgb(21, 17, 17); */
+    }
+    .table1 h2{
+        color: aliceblue;
+
+    }
+    .table2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(189, 73, 73);
+        /* padding: 15px; */
+        border: 1px solid black;
+        padding-bottom: 40px;
+    }
+    .table2 h2{
+        color: white;
+
+    }
+    table{
+        text-align: center;
+        border: 3px solid black;
+        box-shadow: 2px 2px 15px rgb(21, 17, 17);
+        background-color: rgb(251, 251, 251);
+        width: fit-content;
+        height: 200px;
+        font-size: 15px;
+    }
+#r1,#r2,#r3,#r10{
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(255, 252, 248);
+}
+#c1,#c2{
+    font-weight: bold;
+}
+
+#nav3{
+        text-align: center;
+    /* background-color: rgb(124, 37, 37); */
+    background-color: rgb(189, 73, 73);
+
+    padding: 5px;
+color: aliceblue;
+height: 350px;
+/* box-shadow: 2px 2px 15px rgb(21, 17, 17); */
+border: 1px solid black;
+
+    }
+    h2{
+    text-shadow: 2px 2px 15px rgb(21, 17, 17);
+
+    }
+#nav3 h2{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 15px rgb(21, 17, 17);
+}
+    .navigation3{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    gap: 8px;
+    background-color: rgb(189, 73, 73);
+
+    /* background-color: rgb(124, 37, 37);
+        background-color: rgb(189, 73, 73);
+
+     */
+    color: aliceblue;
+    /* font-weight: bold; */
+}
+ /*  */
         /*  */
         /*  */
         /*  */
@@ -196,10 +287,10 @@ a{
 
 
 
-    <section class="navigation">
+    <div class="navigation">
         <div class="home"><a href="index.html">HOME</a>
         </div>
-        <div class="Live_Results"><a href="2live.html">&#9673 Live Results</a></div>
+        <div class="Live_Results"><a href="">&#9673 Live Results</a></div>
         <!-- <div class="Party-wise Results"><a href="#">Party-wise Results</a></div> -->
         <div class="RegionwiseResults"><a href="#">Region-wise-Results</a></div>
         <div class="About"><a href="#">About</a></div>
@@ -208,573 +299,320 @@ a{
 
         
 
-    </section>
-<hr>
+    </div>
+    <div class="sushant">
 <div class="notification3">
     <marquee behavior="" direction="">Data will be update Soon.....</marquee>
 </div>
-<hr>
-<section class="Division wise Result">
-    <table class="division_table" border="3">
-        <tbody><tr>
-        <th rowspan="4">Division Name
-        </th>
-        <th rowspan="4">Seats
-        </th>
-        <td colspan="6" style="color:inherit;background:#F98C1F">
-        </td>
-        <td colspan="6" style="background:#1C89B7">
-        </td>
-        <td colspan="2" style="color:inherit;background:#DDDDBB">
-        </td></tr>
-        <tr>
-        <th colspan="6"><a href="/wiki/Maha_Yuti" title="Maha Yuti">MY</a>
-        </th>
-        <th colspan="6"><a href="/wiki/Maha_Vikas_Aghadi" title="Maha Vikas Aghadi">MVA</a>
-        </th>
-        <th colspan="2" rowspan="3">Others
-        </th></tr>
-        <tr>
-        <td colspan="2" style="color:inherit;background:#FF9933">
-        </td>
-        <td colspan="2" style="color:inherit;background:#E37405">
-        </td>
-        <td colspan="2" style="color:inherit;background:#00B2B2">
-        </td>
-        <td colspan="2" style="color:inherit;background:#19AAED">
-        </td>
-        <td colspan="2" style="color:inherit;background:#FD7D24">
-        </td>
-        <td colspan="2" style="color:inherit;background:#0029B0">
-        </td></tr>
-        <tr>
-        <th colspan="2"><a href="/wiki/Bharatiya_Janata_Party" title="Bharatiya Janata Party">BJP</a>
-        </th>
-        <th colspan="2"><a href="/wiki/Shiv_Sena_(2022%E2%80%93Present)" class="mw-redirect" title="Shiv Sena (2022–Present)">SHS</a>
-        </th>
-        <th colspan="2"><a href="/wiki/Nationalist_Congress_Party" title="Nationalist Congress Party">NCP</a>
-        </th>
-        <th colspan="2"><a href="/wiki/Indian_National_Congress" title="Indian National Congress">INC</a>
-        </th>
-        <th colspan="2"><a href="/wiki/Shiv_Sena_(Uddhav_Balasaheb_Thackeray)" class="mw-redirect" title="Shiv Sena (Uddhav Balasaheb Thackeray)">SS(UBT)</a>
-        </th>
-        <th colspan="2"><a href="/wiki/Nationalist_Congress_Party_%E2%80%93_Sharadchandra_Pawar" title="Nationalist Congress Party – Sharadchandra Pawar">NCP(SP)</a>
-        </th></tr>
-        <tr>
-        <td><a href="/wiki/Amravati_division" title="Amravati division">Amravati division</a>
-        </td>
-        <td>30
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <td><a href="/wiki/Aurangabad_division" title="Aurangabad division">Aurangabad division</a>
-        </td>
-        <td>46
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <td><a href="/wiki/Konkan_division" title="Konkan division">Konkan division</a>
-        </td>
-        <td>75
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <td><a href="/wiki/Nagpur_division" title="Nagpur division">Nagpur division</a>
-        </td>
-        <td>32
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <td><a href="/wiki/Nashik_division" title="Nashik division">Nashik division</a>
-        </td>
-        <td>47
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <td><a href="/wiki/Pune_division" title="Pune division">Pune division</a>
-        </td>
-        <td>58
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td></tr>
-        <tr>
-        <th>Total Seats
-        </th>
-        <th>288
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th>
-        <th>
-        </th></tr></tbody></table>
+  
+
+<!-- <h2>District wise result</h2> -->
+
+<div class="table1">
+    <h2>Region wise result</h2>
+
+    <table border="1">
+      <tr id="r1">
+        <!-- <img src="images/BJP.png" alt="" width="20px">
+<img src="images/Shiv.png" alt="" width="20px">
+<img src="images/NCP.png" width="20px">
+<img src="images/INC.png" alt="" width="20px">
+<img src="images/UBT.png" alt="" width="20px">
+<img src="images/TUTA.png" alt="" width="20px">
+<img src="images/TUTA.png" alt="" width="20px"> -->
+        <td rowspan="3">Region</td>
+        <td rowspan="3">Total seats</td>
+        <td><img src="https://github.com/user-attachments/assets/a48cd3a9-40a1-49c0-8f6c-48151b06fb5b" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/87598bdd-1e3d-455d-a96b-72b2dfa4e22d" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/205df6ce-2c78-4182-8d5a-fc79502e9663" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/bae2200d-7940-4f9a-923b-c014f164ff66" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/81af3c75-ca08-413f-a2f0-557661b4c3ba" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/4f746752-fed0-40d2-a366-6160ed65fe05" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/fe83cf39-1b3d-4f17-aa23-fab0991ab1aa" alt="" width="20px" /></td>
+      </tr>
+      <tr id="r2">
+          
+          <td>BJP</td>
+          <td>SHS</td>
+          <td>NCP</td>
+          <td>INC</td>
+          <td>UBT</td>
+          <td>NCP(SP)</td>
+          <td>Other</td>
+      </tr>
+      <tr id="r3">
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+      </tr>
+
+      <tr id="r4">
+          <td id="c1">Western Maharashtra</td>
+          <td id="c2">70</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r5" >
+          <td id="c1">Vidarbha</td>
+          <td id="c2">62</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r6">
+          <td id="c1">Marathwada	</td>
+          <td id="c2">46</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r7">
+          <td id="c1">Thane+Konkan</td>
+          <td id="c2">39</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r8">
+          <td id="c1">Mumbai</td>
+          <td id="c2">36</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r9">
+          <td id="c1">North Maharashtra</td>
+          <td id="c2">35</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r10">
+          <td id="c1">Total</td>
+          <td id="c2">288</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+  </div>
+    
+  <div class="table2">
+    <h2>Division wise result</h2>
+
+    <table border="1">
+      <tr id="r1">
+        <td rowspan="3">Division name</td>
+        <td rowspan="3">Total seats</td>
+        <td><img src="https://github.com/user-attachments/assets/a48cd3a9-40a1-49c0-8f6c-48151b06fb5b" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/87598bdd-1e3d-455d-a96b-72b2dfa4e22d" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/205df6ce-2c78-4182-8d5a-fc79502e9663" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/bae2200d-7940-4f9a-923b-c014f164ff66" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/81af3c75-ca08-413f-a2f0-557661b4c3ba" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/4f746752-fed0-40d2-a366-6160ed65fe05" alt="" width="20px" /></td>
+        <td><img src="https://github.com/user-attachments/assets/fe83cf39-1b3d-4f17-aa23-fab0991ab1aa" alt="" width="20px" /></td>
+      </tr>
+      <tr id="r2">
+          
+          <td>BJP</td>
+          <td>SHS</td>
+          <td>NCP</td>
+          <td>INC</td>
+          <td>UBT</td>
+          <td>NCP(SP)</td>
+          <td>Other</td>
+      </tr>
+      <tr id="r3">
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+          <td>Seats</td>
+      </tr>
+
+      <tr id="r4">
+          <td id="c1">Amravati division</td>
+          <td id="c2">30</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r5" >
+          <td id="c1">Aurangabad division	</td>
+          <td id="c2">46</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r6">
+          <td id="c1">Konkan division	</td>
+          <td id="c2">75</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r7">
+          <td id="c1">Nagpur division</td>
+          <td id="c2">32</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r8">
+          <td id="c1">Nashik division</td>
+          <td id="c2">47</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r9">
+          <td id="c1">Pune division</td>
+          <td id="c2">58</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr id="r10">
+          <td id="c1">Total</td>
+          <td id="c2">288</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+  </div>
+    
+  <section id="nav3">
+    <h2>District wise result</h2>
+    <div class="navigation3">
+    
+        <div class="districtname"> Ahmednagar</div>
+        <div class="districtname"> Akola</div>
+        <div class="districtname"> Amravati</div>
+        <div class="districtname"> Aurangabad</div>
+        <div class="districtname"> Beed</div>
+        <div class="districtname"> Bhandara</div>
+        <div class="districtname"> Buldhana</div>
+        <div class="districtname">Chandrapur </div>
+        <div class="districtname">Dhule </div>
+        <div class="districtname"> Gadchiroli</div>
+        <div class="districtname"> Gondia</div>
+        <div class="districtname"> Hingoli</div>
+        <div class="districtname"> Jalgaon</div>
+        <div class="districtname"> Jalna</div>
+        <div class="districtname"> Kolhapur</div>
+        <div class="districtname"> Latur</div>
+        <div class="districtname"> Mumbai City</div>
+        <div class="districtname"> Mumbai Suburban</div>
+        <div class="districtname"> Nagpur</div>
+        <div class="districtname"> Nanded</div>
+        <div class="districtname"> Nandurbar</div>
+        <div class="districtname"> Nashik</div>
+        <div class="districtname"> Osmanabad</div>
+        <div class="districtname"> Palghar</div>
+        <div class="districtname"> Parbhani</div>
+        <div class="districtname"> Pune</div>
+        <div class="districtname"> Raigad</div>
+        <div class="districtname"> Ratnagiri</div>
+        <div class="districtname"> Sangli</div>
+        <div class="districtname"> Satara</div>
+        <div class="districtname"> Sindhudurg</div>
+        <div class="districtname"> Solapur</div>
+        <div class="districtname"> Thane</div>
+        <div class="districtname"> Wardha</div>
+        <div class="districtname"> Washim</div>
+        <div class="districtname"> Yavatmal</div>
+    </div></section>
+  
+  
+<section id="footer">
+    <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <p>&copy; 2024 MahaElection Results Portal. All Rights Reserved.</p>
+          </div>
+          <div class="footer-center">
+            <p>Designed by <u>Sushant Bari</u></p>
+            <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a></p>
+          </div>
+          <div class="footer-right">
+            <p>Follow us:</p>
+            <a href="#" target="_blank">Twitter </a>
+            <a href="#" target="_blank">Instagram </a>
+            <!-- <a href="#" target="_blank"></a> -->
+          </div>
+          <div class="footer-right1">
+            <h3>Contact us:</h3>
+            <p>Email: sushant.bari24@vit.edu</p>
+           
+            <!-- <a href="#" target="_blank"></a> -->
+          </div>
+        </div>
+      </footer>
 </section>
-<hr>
-    <section class="main_container">
-        
-        <table class="table" style="text-align:center;" border="1">
-            <thead>
-                <tr>
-            <th rowspan="3" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Region
-            </th>
-            <th rowspan="3" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Total seats
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Bharatiya_Janata_Party_logo.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/a48cd3a9-40a1-49c0-8f6c-48151b06fb5b" decoding="async" width="80" height="83" class="mw-file-element" srcset="" data-file-width="154" data-file-height="159"></a></span>
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Logo_of_Shiv_Sena.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/87598bdd-1e3d-455d-a96b-72b2dfa4e22d" decoding="async" width="88" height="88" class="mw-file-element" srcset="" data-file-width="88" data-file-height="88"></a></span>
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Flag_of_Nationalist_Congress_Party.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/205df6ce-2c78-4182-8d5a-fc79502e9663" decoding="async" width="95" height="57" class="mw-file-element" srcset="" data-file-width="2000" data-file-height="1200"></a></span>
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:INC_Logo.png" class="mw-file-description"><img src="https://github.com/user-attachments/assets/bae2200d-7940-4f9a-923b-c014f164ff66" decoding="async" width="60" height="70" class="mw-file-element" srcset="" data-file-width="303" data-file-height="352"></a></span>
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="" class="mw-file-description"><img src="https://github.com/user-attachments/assets/81af3c75-ca08-413f-a2f0-557661b4c3ba" decoding="async" width="90" height="60" class="mw-file-element" srcset="" data-file-width="662" data-file-height="441"></a></span>
-            </th>
-            <th colspan="2"><span typeof="mw:File"><a href="" class="mw-file-description"><img src="https://github.com/user-attachments/assets/4f746752-fed0-40d2-a366-6160ed65fe05" decoding="async" width="90" height="90" class="mw-file-element" srcset="" data-file-width="500" data-file-height="500"></a></span>
-            </th>
-            <th rowspan="2">Others
-            </th></tr>
-            <tr >
-            <th colspan="2"><a href="/wiki/Bharatiya_Janata_Party" title="Bharatiya Janata Party">BJP</a>
-            </th>
-            <th colspan="2"><a href="/wiki/Shiv_Sena_(2022%E2%80%93Present)" class="mw-redirect" title="Shiv Sena (2022–Present)">SHS</a>
-            </th>
-            <th colspan="2"><a href="/wiki/Nationalist_Congress_Party" title="Nationalist Congress Party">NCP</a>
-            </th>
-            <th colspan="2"><a href="/wiki/Indian_National_Congress" title="Indian National Congress">INC</a>
-            </th>
-            <th colspan="2"><a href="/wiki/Shiv_Sena_(UBT)" title="Shiv Sena (UBT)">SS(UBT)</a>
-            </th>
-            <th colspan="2"><a href="/wiki/Nationalist_Congress_Party_%E2%80%93_Sharadchandra_Pawar" title="Nationalist Congress Party – Sharadchandra Pawar">NCP (SP)</a>
-            </th></tr>
-            <tr>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th>
-            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
-            </th></tr>
-        </thead><tbody>
-            
-            
-            <tr>
-            <td>Western Maharashtra
-            </td>
-            <td>70
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            <tr>
-            <td>Vidarbha
-            </td>
-            <td>62
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            <tr>
-            <td>Marathwada
-            </td>
-            <td>46
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            <tr>
-            <td>Thane+Konkan
-            </td>
-            <td>39
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            <tr>
-            <td>Mumbai
-            </td>
-            <td>36
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            <tr>
-            <td>North Maharashtra
-            </td>
-            <td>35
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td></tr>
-            </tbody><tfoot><tr>
-            <th><b>Total</b>
-            </th>
-            <th>288
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th></tr></tfoot></table>
-    </section>
-    <section id="footer">
-        <footer>
-            <div class="footer-container">
-              <div class="footer-left">
-                <p>&copy; 2024 MahaElection Results Portal. All Rights Reserved.</p>
-              </div>
-              <div class="footer-center">
-                <p>Designed by <u>Sushant Bari</u></p>
-                <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a></p>
-              </div>
-              <div class="footer-right">
-                <p>Follow us:</p>
-                <a href="#" target="_blank">Twitter </a>
-                <a href="#" target="_blank">Instagram </a>
-                <!-- <a href="#" target="_blank"></a> -->
-              </div>
-              <div class="footer-right1">
-                <h3>Contact us:</h3>
-                <p>Email: sushant.bari24@vit.edu</p>
-               
-                <!-- <a href="#" target="_blank"></a> -->
-              </div>
-            </div>
-          </footer>
-    </section>
+</div>
 </body>
 </html>
