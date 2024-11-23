@@ -178,7 +178,75 @@ a{
         
         }
         
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        
+        
+        footer {
+            background-color: #9e2929e3;
+            color: white;
+            padding: 20px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+          }
+          
+          .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+          }
+          
+          .footer-left, .footer-center, .footer-right {
+            flex: 1;
+            margin: 10px;
+          }
+          
+          .footer-center a, .footer-left a {
+            color: white;
+            text-decoration: none;
+          }
+          
+          .footer-center a:hover, .footer-left a:hover {
+            text-decoration: underline;
+          }
+          
+          .footer-right img {
+            width: 24px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+          }
+          
+          .footer-right img:hover {
+            transform: scale(1.1);
+          }
+          
+          @media (max-width: 768px) {
+            .footer-container {
+              flex-direction: column;
+              text-align: center;
+            }
+          }
+          .footer-container a{
+              text-decoration: none;
+              color: white;
+          }
+          .footer-right1 p{
+              text-decoration: none;
+              color: rgb(26, 11, 11);
+          }
+          
+        
         </style>
+        
 <body>
     <div class="webpage_name">
         <div class="title"><h1>MahaElection Results  Portal</h1></div>
@@ -215,17 +283,23 @@ a{
 </section>
 <section id="updates">
     <div class="dr1">
+        <div class="i1"><img src="https://github.com/user-attachments/assets/d264f1d8-6f21-4f4f-b426-5722ee3cab98" alt=""></div>
+        <div class="title3">Total</div>
+        <div class="Counting"> 230 / 288</div>
+        <div class="Counting1">000 / 288</div>
+    
+    </div>
+    <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/a48cd3a9-40a1-49c0-8f6c-48151b06fb5b" alt=""></div>
         <div class="title3">BJP</div>
-        <div class="Counting">Leading : +50</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
-    
     
     </div>
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/87598bdd-1e3d-455d-a96b-72b2dfa4e22d" alt=""></div>
         <div class="title3">ShivSena</div>
-        <div class="Counting">Leading : +27</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     
@@ -233,7 +307,7 @@ a{
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/205df6ce-2c78-4182-8d5a-fc79502e9663" alt=""></div>
         <div class="title3">NCP</div>
-        <div class="Counting">Leading : +22</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     
@@ -241,7 +315,7 @@ a{
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/bae2200d-7940-4f9a-923b-c014f164ff66" alt=""></div>
         <div class="title3">INC</div>
-        <div class="Counting">Leading : +13</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     
@@ -249,7 +323,7 @@ a{
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/81af3c75-ca08-413f-a2f0-557661b4c3ba" alt=""></div>
         <div class="title3">UBT</div>
-        <div class="Counting">Leading : +12</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     
@@ -257,22 +331,44 @@ a{
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/4f746752-fed0-40d2-a366-6160ed65fe05" alt=""></div>
         <div class="title3">NCP(SP)</div>
-        <div class="Counting">Leading : +14</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     </div>
     <div class="dr1">
         <div class="i1"><img src="https://github.com/user-attachments/assets/fe83cf39-1b3d-4f17-aa23-fab0991ab1aa" alt=""></div>
         <div class="title3">Other</div>
-        <div class="Counting">Leading : +13</div>
+        <div class="Counting">Leading : +00</div>
         <div class="Counting1">Won : +00</div>
     
     
     </div>
     
         </section>
-    <section id="home">
-
+    <section id="footer">
+        <footer>
+            <div class="footer-container">
+              <div class="footer-left">
+                <p>&copy; 2024 MahaElection Results Portal. All Rights Reserved.</p>
+              </div>
+              <div class="footer-center">
+                <p>Designed by <u>Sushant Bari</u></p>
+                <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a></p>
+              </div>
+              <div class="footer-right">
+                <p>Follow us:</p>
+                <a href="#" target="_blank">Twitter </a>
+                <a href="#" target="_blank">Instagram </a>
+                <!-- <a href="#" target="_blank"></a> -->
+              </div>
+              <div class="footer-right1">
+                <h3>Contact us:</h3>
+                <p>Email: sushant.bari24@vit.edu</p>
+               
+                <!-- <a href="#" target="_blank"></a> -->
+              </div>
+            </div>
+          </footer>
     </section>
 
 </body>
