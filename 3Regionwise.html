@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3Regionwise.css">
+    <meta name="viewport" content="width=720">
+
+</head>
+<style>
+    .division_table{
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .table{
+        width: 100%;
+        height: 800px;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .table img{
+        width: 25px;
+        height: 80px;
+    }
+    body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient( 90.5deg,  rgba(240, 230, 216, 0.873) 1.1%, rgb(250, 236, 217) 81.3% ); */
+}
+
+.webpage_name {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 100%;
+    background-color: #a92f2f;
+    background-image: linear-gradient(147deg, #a92f2f 0%, #c03e2d 37%, #a71a09 100%);
+    border: 2px solid black;
+   
+
+}
+.webpage_name img{
+    width: 400px;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    line-height: 25px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    font-size: 18px;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    gap: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.Live_Results a{
+    color: rgb(192, 24, 24);
+}
+.navigation a:hover{
+    background-color: rgb(241, 211, 211);
+}
+
+
+ .disclaimer{
+    
+    /* padding: 4px; */
+    /* margin: 3px; */
+    background-color: wheat;
+    border: 2px dotted rgb(248, 171, 4);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* gap: 1px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    width: 100%;
+    /* margin: 10px; */
+    padding: 10px;
+    
+ }
+ #dis{
+    font-size: 20px;
+ }
+ #dis2{
+    max-width: 100%;
+    font-size: 10px;
+ }
+ .RegionwiseResults a{
+    color: blue;
+    font-size: 28px;
+    
+ }
+ .notification3{
+    background-color: bisque;
+    color: red;
+    font-size: 20px;
+ }
+</style>
+<body>
+    <div class="webpage_name">
+        <div class="title"><h1>MahaElection Results  Portal</h1></div>
+         <div class="logo">
+            <p><img src="https://github.com/user-attachments/assets/28957c01-0eff-49cd-a6fe-d3e46b522f51" alt=""></p>
+        </div>
+    </div>
+
+
+
+    <section class="navigation">
+        <div class="home"><a href="index.html">HOME</a>
+        </div>
+        <div class="Live_Results"><a href="">&#9673 Live Results</a></div>
+        <!-- <div class="Party-wise Results"><a href="#">Party-wise Results</a></div> -->
+        <div class="RegionwiseResults"><a href="#">Region-wise-Results</a></div>
+        <div class="About"><a href="#">About</a></div>
+        <div class="Contact"><a href="#">Contact</a></div>
+        <!-- <div class="home"><a href="#"></a></div> -->
+
+        
+
+    </section>
+<hr>
+<div class="notification3">
+    <marquee behavior="" direction="">Data will be update Soon.....</marquee>
+</div>
+<hr>
+<section class="Division wise Result">
+    <table class="division_table" border="3">
+        <tbody><tr>
+        <th rowspan="4">Division Name
+        </th>
+        <th rowspan="4">Seats
+        </th>
+        <td colspan="6" style="color:inherit;background:#F98C1F">
+        </td>
+        <td colspan="6" style="background:#1C89B7">
+        </td>
+        <td colspan="2" style="color:inherit;background:#DDDDBB">
+        </td></tr>
+        <tr>
+        <th colspan="6"><a href="/wiki/Maha_Yuti" title="Maha Yuti">MY</a>
+        </th>
+        <th colspan="6"><a href="/wiki/Maha_Vikas_Aghadi" title="Maha Vikas Aghadi">MVA</a>
+        </th>
+        <th colspan="2" rowspan="3">Others
+        </th></tr>
+        <tr>
+        <td colspan="2" style="color:inherit;background:#FF9933">
+        </td>
+        <td colspan="2" style="color:inherit;background:#E37405">
+        </td>
+        <td colspan="2" style="color:inherit;background:#00B2B2">
+        </td>
+        <td colspan="2" style="color:inherit;background:#19AAED">
+        </td>
+        <td colspan="2" style="color:inherit;background:#FD7D24">
+        </td>
+        <td colspan="2" style="color:inherit;background:#0029B0">
+        </td></tr>
+        <tr>
+        <th colspan="2"><a href="/wiki/Bharatiya_Janata_Party" title="Bharatiya Janata Party">BJP</a>
+        </th>
+        <th colspan="2"><a href="/wiki/Shiv_Sena_(2022%E2%80%93Present)" class="mw-redirect" title="Shiv Sena (2022–Present)">SHS</a>
+        </th>
+        <th colspan="2"><a href="/wiki/Nationalist_Congress_Party" title="Nationalist Congress Party">NCP</a>
+        </th>
+        <th colspan="2"><a href="/wiki/Indian_National_Congress" title="Indian National Congress">INC</a>
+        </th>
+        <th colspan="2"><a href="/wiki/Shiv_Sena_(Uddhav_Balasaheb_Thackeray)" class="mw-redirect" title="Shiv Sena (Uddhav Balasaheb Thackeray)">SS(UBT)</a>
+        </th>
+        <th colspan="2"><a href="/wiki/Nationalist_Congress_Party_%E2%80%93_Sharadchandra_Pawar" title="Nationalist Congress Party – Sharadchandra Pawar">NCP(SP)</a>
+        </th></tr>
+        <tr>
+        <td><a href="/wiki/Amravati_division" title="Amravati division">Amravati division</a>
+        </td>
+        <td>30
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <td><a href="/wiki/Aurangabad_division" title="Aurangabad division">Aurangabad division</a>
+        </td>
+        <td>46
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <td><a href="/wiki/Konkan_division" title="Konkan division">Konkan division</a>
+        </td>
+        <td>75
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <td><a href="/wiki/Nagpur_division" title="Nagpur division">Nagpur division</a>
+        </td>
+        <td>32
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <td><a href="/wiki/Nashik_division" title="Nashik division">Nashik division</a>
+        </td>
+        <td>47
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <td><a href="/wiki/Pune_division" title="Pune division">Pune division</a>
+        </td>
+        <td>58
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td></tr>
+        <tr>
+        <th>Total Seats
+        </th>
+        <th>288
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th></tr></tbody></table>
+</section>
+<hr>
+    <section class="main_container">
+        
+        <table class="table" style="text-align:center;" border="1">
+            <thead>
+                <tr>
+            <th rowspan="3" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Region
+            </th>
+            <th rowspan="3" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Total seats
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Bharatiya_Janata_Party_logo.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/a48cd3a9-40a1-49c0-8f6c-48151b06fb5b" decoding="async" width="80" height="83" class="mw-file-element" srcset="" data-file-width="154" data-file-height="159"></a></span>
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Logo_of_Shiv_Sena.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/87598bdd-1e3d-455d-a96b-72b2dfa4e22d" decoding="async" width="88" height="88" class="mw-file-element" srcset="" data-file-width="88" data-file-height="88"></a></span>
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:Flag_of_Nationalist_Congress_Party.svg" class="mw-file-description"><img src="https://github.com/user-attachments/assets/205df6ce-2c78-4182-8d5a-fc79502e9663" decoding="async" width="95" height="57" class="mw-file-element" srcset="" data-file-width="2000" data-file-height="1200"></a></span>
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="/wiki/File:INC_Logo.png" class="mw-file-description"><img src="https://github.com/user-attachments/assets/bae2200d-7940-4f9a-923b-c014f164ff66" decoding="async" width="60" height="70" class="mw-file-element" srcset="" data-file-width="303" data-file-height="352"></a></span>
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="" class="mw-file-description"><img src="https://github.com/user-attachments/assets/81af3c75-ca08-413f-a2f0-557661b4c3ba" decoding="async" width="90" height="60" class="mw-file-element" srcset="" data-file-width="662" data-file-height="441"></a></span>
+            </th>
+            <th colspan="2"><span typeof="mw:File"><a href="" class="mw-file-description"><img src="https://github.com/user-attachments/assets/4f746752-fed0-40d2-a366-6160ed65fe05" decoding="async" width="90" height="90" class="mw-file-element" srcset="" data-file-width="500" data-file-height="500"></a></span>
+            </th>
+            <th rowspan="2">Others
+            </th></tr>
+            <tr >
+            <th colspan="2"><a href="/wiki/Bharatiya_Janata_Party" title="Bharatiya Janata Party">BJP</a>
+            </th>
+            <th colspan="2"><a href="/wiki/Shiv_Sena_(2022%E2%80%93Present)" class="mw-redirect" title="Shiv Sena (2022–Present)">SHS</a>
+            </th>
+            <th colspan="2"><a href="/wiki/Nationalist_Congress_Party" title="Nationalist Congress Party">NCP</a>
+            </th>
+            <th colspan="2"><a href="/wiki/Indian_National_Congress" title="Indian National Congress">INC</a>
+            </th>
+            <th colspan="2"><a href="/wiki/Shiv_Sena_(UBT)" title="Shiv Sena (UBT)">SS(UBT)</a>
+            </th>
+            <th colspan="2"><a href="/wiki/Nationalist_Congress_Party_%E2%80%93_Sharadchandra_Pawar" title="Nationalist Congress Party – Sharadchandra Pawar">NCP (SP)</a>
+            </th></tr>
+            <tr>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th>
+            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Won
+            </th></tr>
+        </thead><tbody>
+            
+            
+            <tr>
+            <td>Western Maharashtra
+            </td>
+            <td>70
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            <tr>
+            <td>Vidarbha
+            </td>
+            <td>62
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            <tr>
+            <td>Marathwada
+            </td>
+            <td>46
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            <tr>
+            <td>Thane+Konkan
+            </td>
+            <td>39
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            <tr>
+            <td>Mumbai
+            </td>
+            <td>36
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            <tr>
+            <td>North Maharashtra
+            </td>
+            <td>35
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td></tr>
+            </tbody><tfoot><tr>
+            <th><b>Total</b>
+            </th>
+            <th>288
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th></tr></tfoot></table>
+    </section>
+    
+</body>
+</html>
