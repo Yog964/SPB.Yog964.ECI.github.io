@@ -84,3 +84,87 @@ a{
     font-size: 28px;
     
  }
+ /*  */
+ /*  */
+  /*  */
+ /*  */
+   /*  */
+    /*  */
+     /*  */
+      /*  */ /*  */ /*  */
+       /*  */
+        /*  */
+        #updates {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5; /* Light gray background for contrast */
+            border-top: 2px solid #a92f2f;
+        }
+        
+        .dr1 {
+            display: flex;
+            flex-direction: row;
+            border: 2px solid #a92f2f; /* Matching border color */
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 600px; /* Ensure the layout doesn't stretch too wide on larger screens */
+            padding: 10px;
+            margin-bottom: 15px; /* Add some spacing between items */
+            background-color: #fff; /* White background for each row */
+            border-radius: 8px; /* Rounded corners for a modern look */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            height: 150px;
+        }
+        
+        .i1 img {
+            width: 150px; /* Resize image to fit better in the layout */
+            height: 100px;
+            border-radius: 5px; /* Rounded corners for the image */
+        }
+        
+        .title3 {
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #f5deb3; /* Light beige background */
+            line-height: 50px;
+            text-align: center;
+            padding: 0 10px;
+            border-radius: 5px; /* Slight rounding of corners */
+            width: 100px;
+        }
+        
+        .Counting {
+            font-size: 18px;
+            font-weight: bolder;
+            background-color: #b23d30;
+            color: #fff; /* White text for contrast */
+            line-height: 50px;
+            text-align: center;
+            padding: 0 10px;
+            border-radius: 5px; /* Rounded corners for consistency */
+            width: 100px;
+            box-shadow: 1px 1px 5px red;
+            text-shadow: 1px 1px 2px rgb(6, 4, 4);
+        
+        }
+        .Counting1 {
+            font-size: 18px;
+            font-weight: bolder;
+            background-color: #a82a26fe;
+            color: #fff; /* White text for contrast */
+            line-height: 50px;
+            text-align: center;
+            padding: 0 10px;
+            border-radius: 5px; /* Rounded corners for consistency */
+            width: 100px;
+            box-shadow: 1px 1px 5px rgb(8, 6, 6);
+            /* text-shadow: 1px 1px 2px rgb(6, 4, 4); */
+            color: rgb(185, 225, 233);
+        
+        }
+        
