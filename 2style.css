@@ -3,7 +3,18 @@
     /* text-decoration:underline rgb(2, 2, 14); */
 }
 
+.refresh-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
 
+.refresh-btn:hover {
+    background-color: #45a049;
+}
 
 
 body {
