@@ -39,6 +39,9 @@
     </section>
 <hr>
 <section id="live1">
+    <!-- Refresh Button -->
+    <button class="refresh-btn" onclick="window.location.reload();">Click here Refresh Results</button>
+    
   <div class="liveclass">
     <div class="live1">
         <!-- Card 1 -->
@@ -162,6 +165,12 @@
             </div>
           </footer>
     </section>
-
+<script>
+        // Optional: You can also set a function to handle other refreshing actions, like fetching new data from a server.
+        function refreshResults() {
+            // Here you could make an AJAX request or use Fetch API to get updated election results without refreshing the entire page.
+            alert("Results refreshed (this could be an AJAX call to update data).");
+        }
+    </script>
 </body>
 </html>
